@@ -1,3 +1,7 @@
+.body{
+    margin:0px;
+    padding:0px;
+}
 .search{
     border: 1px solid black;
     outline: none;
@@ -55,3 +59,24 @@
 .video-info{
     display:inline-block;
 } */
+
+.header{
+    display:flex;
+    flex-direction:row;
+    /* justify-content: space-between; */
+    align-items: center;
+    height:30px;
+}
+.left-header{
+    background-color: aqua;
+    width:150px;
+   
+}
+.middle-header{
+     flex:1;
+     background-color:red;
+}
+.right-header{
+    width:200px;
+    background-color:blue;
+}
