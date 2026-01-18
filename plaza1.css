@@ -1,0 +1,35 @@
+
+
+.channel-logo{
+    display:inline-block;
+    vertical-align: top;
+
+    
+}
+.video-details{
+    display:inline-block;
+}
+.logo{
+    border-radius:100%;
+    width:30px;
+    height:30px;
+    object-fit:cover;
+    
+}
+
+
+.video-title{
+    width:250px;
+    font-size: 16px;
+    margin-top:0px;
+}
+.video-author{
+    color:gray;
+    margin-bottom:0px;
+}
+.video-stats{
+    color:gray;
+    margin-top:0px;
+    font-size:12px;
+}
+
