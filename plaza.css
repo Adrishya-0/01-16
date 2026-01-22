@@ -32,10 +32,43 @@
 
 }
 
+
+@media(max-width:750px){
+    .video-grid{
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+
+@media(min-width:751px) and (max-width:999px) {
+      .video-grid{
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
+
+@media(min-width:100px) {
+      .video-grid{
+        grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+}
+
  .video-info-grid{
     display:grid;
     grid-template-columns: 30px 1fr;
 
+}
+.thumbnail-row{
+    position:relative;
+}
+.video-time{
+    position:absolute;
+    background-color:black;
+    border-radius:2px;
+    color:white;
+    padding:1px;
+    right:2px;
+    font-size:10px;
+    bottom:7px;
 }
 .thumb-1{
     width:100%;
@@ -79,6 +112,7 @@
     bottom:50px;
     background-color:rgb(255, 255, 255);
     border-bottom: 1px solid rgb(224, 224, 224);
+    z-index:100;
   
 }
 .left-header{
@@ -161,6 +195,23 @@
         cursor:pointer;
          
 }
+.notification-div{
+    position:relative;
+}
+.notify-div{
+    background-color:rgb(182, 25, 25);
+    color:white;
+    position:absolute;
+    right:-1px;
+    top:-1px;
+    border-radius: 10px;
+    font-size:8px;
+    padding-left:3px;
+    padding-right:3px;
+    padding-top:1px;
+    padding-bottom:1px;
+    font-family: roboto, arial;
+}
 .channel-profile{
     height:22px;
     width:22px;
@@ -177,4 +228,22 @@
     top:40px;
    width:60px;
    background-color:white;
+   border-right: 1px solid rgb(212, 210, 210);
+
+}
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:space-between;
+    align-items: center;
+
+}
+.s:hover{
+    background-color:lightgray;
+}
+
+.s img{
+    height:20px;
+    
 }
